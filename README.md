@@ -13,6 +13,7 @@ Web Development, Big Data and Cybersecurity. The main projects I’ve collaborat
 were mainly primitive websites such as a housing search website my group accomplished using
 an API, a website of fictional characters and fun facts about them, and a text-based adventure game
 my group and I created using Java to simulate the high school experience.
+
 I see myself using what I learn in this course in my personal project and improving my
 preexisting skills. I’ve worked with HTML, CSS and JavaScript before, but I haven’t maintained
 them so I’m quite rusty. I’m hoping through this class I can regain the skills I’ve lost as well as
@@ -20,6 +21,7 @@ learn new things about the process of web development. I’m particularly intere
 are used and how to pull information from other websites using APIs. I have an idea for a personal
 project where it’s a website that shows people animal hospitals in their area where they can filter
 by animal type, wild/domestic, etc.
+
 Based on your first class I am very excited to be here Professor Plotkin. You are very
 committed to your students health and well being as well as academic performance, and I hope I
 can make you proud this semester. 
