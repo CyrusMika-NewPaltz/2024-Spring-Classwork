@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +9,7 @@
     <title>First Bulma Example</title>
 </head>
 <body >
+  <div id="app"></div>
     <nav class="navbar is-primary">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
@@ -178,9 +177,9 @@
                         </a>
                       </article>
 
-                      <article class="message is-primary">
+                      <article class="message is-primary" v-show="showAlert">
                         <div class="message-header">
-                          <p>Make a github account</p>
+                          <p>{{ message }}</p>
                           <button class="delete" aria-label="delete"></button>
                         </div>
                         <div class="message-body">
@@ -326,6 +325,19 @@
           </div>
 
       </div>
+    </div>
+      <script type="module">
+      import { createApp, ref } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+      createApp({
+          setup() {
+              const message = ref('Hello Vue!')
+              const showAlert = true;
+              return {
+                  message
+              }
+          }
+      }).mount('#app')
+      </script>
 
 </body>
 </html>
